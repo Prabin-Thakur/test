@@ -1,0 +1,40 @@
+.dashboard-container {
+  width: 100%;
+  max-width: 140rem;
+  height: fit-content;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  .dashboard-add-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+.modal {
+  display: flex;
+  height: 60vh;
+  min-width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  .modal-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
